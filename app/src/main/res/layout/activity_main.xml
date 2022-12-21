@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".activities.MainActivity">
+
+    <Button
+        android:id="@+id/btnNewGame"
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="@dimen/_20dp"
+        android:background="@drawable/round_button_new_game"
+        android:text="@string/txt_new_game"
+        android:textSize="@dimen/_20sp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="3">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_margin="@dimen/_3dp"
+            android:background="@drawable/btn_round_corner"
+            android:onClick="check"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_margin="@dimen/_3dp"
+            android:background="@drawable/btn_round_corner"
+            android:onClick="check"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_margin="@dimen/_3dp"
+            android:background="@drawable/btn_round_corner"
+            android:onClick="check"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_margin="@dimen/_3dp"
+            android:background="@drawable/btn_round_corner"
+            android:onClick="check"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_margin="@dimen/_3dp"
+            android:background="@drawable/btn_round_corner"
+            android:onClick="check"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_margin="@dimen/_3dp"
+            android:background="@drawable/btn_round_corner"
+            android:onClick="check"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_margin="@dimen/_3dp"
+            android:background="@drawable/btn_round_corner"
+            android:onClick="check"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_margin="@dimen/_3dp"
+            android:background="@drawable/btn_round_corner"
+            android:onClick="check"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_margin="@dimen/_3dp"
+            android:background="@drawable/btn_round_corner"
+            android:onClick="check"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </GridLayout>
+
+</RelativeLayout>

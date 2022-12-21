@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tic_Tac_Toe</string>
+    <string name="txt_new_game">New Game</string>
+    <string name="txt_tic_tac_toe">Tic Tac Toe</string>
+    <string name="txt_made_by_ali_hussnain">Developed By Ali Hussnain</string>
+    <string name="txt_match_draw">Match Draw</string>
+</resources>
